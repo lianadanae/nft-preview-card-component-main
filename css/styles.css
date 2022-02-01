@@ -1,0 +1,38 @@
+/***** BASE STYLES *****/
+
+
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+    min-height : 100vh;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 5px;
+}
+
+h1, strong {
+    color: white;
+    font-weight: 600;
+}
+
+h4 {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    font-size: 18px;
+    color:hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+/* hr {
+    background-color:hsl(215, 32%, 27%);
+} */
+
+/* img .avatar {
+    border-color: white;
+} */
