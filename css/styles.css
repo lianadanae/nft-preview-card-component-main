@@ -1,13 +1,29 @@
 /***** BASE STYLES *****/
 
+root {
+    /*Primary Colors*/
+    --color-primary-softblue: hsl(215, 51%, 70%);
+    --color-primary-cyan: hsl(178, 100%, 50%);
 
+    /*Neutral Colors*/
+    --color-neutral-mainbg: hsl(217, 54%, 11%);
+    --color-neutral-cardbg: hsl(216, 50%, 16%);
+    --color-neutral-line: hsl(215, 32%, 27%);
+    --color-neutral-white: hsl(0, 0%, 100%);
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
 
 body {
     display: flex;
     justify-content: center;
     background-color: hsl(217, 54%, 11%);
-    font-family: "Outfit", sans-serif;
+    
     min-height : 100vh;
 }
 
