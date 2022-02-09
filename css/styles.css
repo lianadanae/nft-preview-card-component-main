@@ -1,6 +1,6 @@
 /***** BASE STYLES *****/
 
-root {
+:root {
     /*Primary Colors*/
     --color-primary-softblue: hsl(215, 51%, 70%);
     --color-primary-cyan: hsl(178, 100%, 50%);
@@ -20,38 +20,39 @@ root {
 }
 
 body {
+    min-height : 100vh;
     display: flex;
     justify-content: center;
-    background-color: hsl(217, 54%, 11%);
-    
-    min-height : 100vh;
+    align-items: center;
+    background-color: var(--color-neutral-mainbg);
 }
 
-.card {
+.container {
     display: flex;
     flex-direction: column;
-    background-color: hsl(216, 50%, 16%);
-    border-radius: 5px;
+    background-color: var(--color-neutral-cardbg);
+    border-radius: 16px;
 }
 
-h1, strong {
-    color: white;
+h1, span {
+    color: var(--color-neutral-white);
     font-weight: 600;
 }
 
 h4 {
-    color: hsl(178, 100%, 50%);
+    color: var(--color-primary-cyan);
 }
 
 p {
     font-size: 18px;
-    color:hsl(215, 51%, 70%);
+    color: var(--color-primary-softblue);
     font-weight: 300;
 }
 
-/* hr {
-    background-color:hsl(215, 32%, 27%);
-} */
+ .line {
+    background-color: var(--color-neutral-line);
+    color: var(--color-neutral-line);
+} 
 
 /* img .avatar {
     border-color: white;
